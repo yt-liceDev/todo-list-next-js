@@ -39,11 +39,11 @@ export default function FormTodo() {
           <Input type="text" name="todo" placeholder="add your task" />
         </div>
         <div className="flex flex-col gap-4">
-          <label className="text-slate-100">Todo</label>
+          <label className="text-slate-100">Date</label>
           <Input name="date" type="date" />
         </div>
         <div className="flex flex-col gap-4">
-          <label className="text-slate-100">Todo</label>
+          <label className="text-slate-100">Time</label>
           <Input name="time" type="time" />
         </div>
         <div className="text-center pt-6">
